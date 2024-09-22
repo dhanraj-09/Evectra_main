@@ -85,8 +85,6 @@ function Home1()
                         <DIV className={"topi4"}><P className={"paras"} id={"paras7"}> <STRONG>PROBLEM </STRONG>  •	Safety Considerations: There is a concern about the safety of wireless charging with regard to electromagnetic radiation that might interfere with other electronic devices.<BR></BR></P></DIV>
                         <DIV className={"topi4b"}><P className={"paras"} id={"paras8"}><STRONG>SOLUTION </STRONG>• 	 Improved Safety: The proposed invention shall incorporate advanced safety features, such as electromagnetic shielding and foreign object detection, to reduce the risks associated with wireless charging.<BR></BR></P></DIV>
                     </DIV>
-
-
             </DIV>
             <Contactus></Contactus>
             <DIV id={"footer"}>
