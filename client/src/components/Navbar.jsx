@@ -40,7 +40,7 @@ const UL=styled.ul`
     left: 0;
     max-width: 100%;
     overflow: hidden;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(123, 154, 127, 0.61);
     height: 80px;
 `;
 
@@ -57,7 +57,7 @@ function Navbar()
     return(
             <div>
                 <UL>
-                   <A2 href={""}> <P9>EVECTRA</P9></A2>
+                   <A2> <P9>EVECTRA</P9></A2>
                     <LI><A className={"a"}  href={"/"}>Contact</A></LI>
                     <LI><A className={"a"} href={"/"}>About</A></LI>
                     <LI><A className={"a"} href={"/"}>Technology</A></LI>

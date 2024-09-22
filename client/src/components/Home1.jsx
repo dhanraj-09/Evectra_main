@@ -1,7 +1,7 @@
 import {styled} from "styled-components";
 import "./Homestyle.css";
 import back from "./back.mp4";
-    
+
 function Home1()
 {
     const BR=styled.br``;
@@ -17,6 +17,16 @@ function Home1()
     const A=styled.a`
         
     `;
+
+    const IMAGE2=styled.img`
+        
+        
+        
+        
+    `;
+
+
+
 
     const DIV4=styled.div`
         display: block;
@@ -56,6 +66,7 @@ function Home1()
         font-size: 27px;
         
     `;
+
 
 
     const IMAGE1=styled.img`
@@ -111,9 +122,9 @@ function Home1()
            </DIV>
             <DIV class={"container"}>
                 <BUTTON type={"button"} id={"card1"} onClick={component1} >RANGE</BUTTON>
-                <BUTTON type={"button"} id={"card2"} onClick={component2} >PERFORMANCE</BUTTON>
+                <BUTTON type={"button"} id={"card2"} onClick={component4} >PERFORMANCE</BUTTON>
                 <BUTTON type={"button"} id={"card3"} onClick={component3} >EXPENSES</BUTTON>
-                <BUTTON type={"button"} id={"card4"} onClick={component4} >SAFETY</BUTTON>
+                <BUTTON type={"button"} id={"card4"} onClick={component2} >SAFETY</BUTTON>
                 <BUTTON type={"button"} id={"card5"} onClick={component5} >HASSLE</BUTTON>
             </DIV>
         <DIV>
@@ -142,10 +153,12 @@ function Home1()
                 <P className={"all"}>--Hassle: Wired charging needs the car to stop and plug in, which may bother drivers.</P>
                 <P className={"all"}>----Convenience: My invention has enabled on-the-go charging, meaning the vehicle can be charged while in motion; <BR></BR>hence, no need ever to stop by the power stations.</P>
             </DIV>
+            <DIV>
+                <A href={"https://www.linkedin.com/in/rishitagnihotri"}><IMAGE2 src={"./public/linkedin.png"} height={"30px"} width={"30px"}>
+
+                </IMAGE2></A>
+            </DIV>
         </DIV>
-            <DIV4>
-                <A></A>
-            </DIV4>
         </>
     )
 }

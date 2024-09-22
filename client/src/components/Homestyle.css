@@ -1,6 +1,6 @@
 .container
 {
-    background-color: white;
+
 }
 
 button
@@ -33,8 +33,15 @@ button
     top: -250px;
     max-width: 1400px;
 }
-#block
+p
 {
-
+    color: black;
 }
-
+#block1
+{
+    background-color: black;
+}
+#block2
+{
+    background-color: black;
+}
