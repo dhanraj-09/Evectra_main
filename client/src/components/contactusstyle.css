@@ -1,0 +1,95 @@
+
+.com1,.com4,.com2,.com3
+{
+    margin: 30px;
+    color: white;
+}
+#form
+{
+    width: 100%;
+    height: 70vh;
+    margin: 0px 30px 30px 30px;
+    display: block;
+    justify-items: center;
+    padding: 25px;
+}
+#formdiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.manrope-abc
+{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+#container
+{
+    margin: 0;
+    padding-bottom: 50px;
+    background-color: black;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    opacity: 80%;
+    border-radius: 30px;
+}
+#main
+{
+    display: flex;
+    justify-content: center;
+    background-color: #eaeaea;
+}
+#name,#email,#company,#reason
+{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+#name
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#buttondiv
+{
+    display: flex;
+    justify-content: center;
+}
+#button1
+{
+    height: 2.3rem;
+    width: 5.2rem;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border: none;
+    border-radius:15px;
+    font-size: 15px;
+}
+button:hover
+{
+    background-color: #1aaa15;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

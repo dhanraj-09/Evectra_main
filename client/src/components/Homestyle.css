@@ -1,47 +1,119 @@
-.container
-{
-
-}
-
-button
-{
-    position: relative;
-    top: -275px;
-    float: right;
-    border: black 3px solid;
-    border-radius: 40px;
-    background-color: rgba(57, 57, 58, 0.78);
-    opacity: 70%;
-    margin: 20px;
-    height: 100px;
-    width: 250px;
-    cursor: pointer;
-    color: white;
-    font-family: sans-serif;
-    font-size: xx-large;
-}
-#card2
-{
-   width: 300px;
-}
-
-.all
-{
-    font-size: 30px;
-    position: relative;
-    left: 20px;
-    top: -250px;
-    max-width: 1400px;
-}
-p
-{
-    color: black;
-}
-#block1
-{
-    background-color: black;
-}
 #block2
 {
+    margin-top: 6rem;
+    height: 62.5vh;
+    width: 100%;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
+#backclip
+{
+    height: 62.5vh;
+}
+.outfit-abc1
+{
+     font-family: "Outfit", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 100;
+     font-style: normal;
+}
+#block3
+{
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background-color: #eaeaea;
+    background-image: url("pic2.webp");
+}
+#quotes1
+{
+    margin: 50px 120px 50px 50px;
+}
+#footer
+{
+    height: 250px;
+    background-image: url("main1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#img1
+{
+    position: absolute;
+}
+#insta
+{
+    margin: 30px;
+}
+#linkedin
+{
+    margin: 30px;
+}
+.social
+{
+    position: relative;
+    top: 3%;
+    left: 2.5%;
+    display: inline-block;
+}
+#footerheading
+{
+    padding: 25px 25px 0 50px;
+    margin: 0 0 0 0;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0,
+            "wdth" 100,
+            "GRAD" 0,
+            "XOPQ" 96,
+            "XTRA" 468,
+            "YOPQ" 79,
+            "YTAS" 750,
+            "YTDE" -203,
+            "YTFI" 738,
+            "YTLC" 514,
+            "YTUC" 712;
+}
+#heading1
+{
+    display: inline-block;
+    position: relative;
+    margin: 30px;
+}
+#quotesptag
+{
+    color:  #7a8581;
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 21px;
+    font-style: normal;
+    margin-top: 30px;
+}
+.paras
+{
+    position: relative;
+    top: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+
+}
+.raleway-probs
+{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+}
+#part1,#part2,#part3,#part4
+{
+    margin: 20px;
+}
+
