@@ -10,10 +10,9 @@ function Navbar()
     const NAV=styled.nav`
         position: fixed;
         top: 0;
-        background-color: black;
-        opacity: 90%;
+        background-color: rgb(120, 155, 224);
         width: 100%;
-        height: 13vh;
+        height: 12.5vh;
     `;
 
     const UL=styled.ul`
@@ -24,19 +23,21 @@ function Navbar()
         margin: 10px 10px 10px 10px;
         width: 30%;
         position: fixed;
-        top: 3%;
-        left: 60%;
+        top: 2%;
+        left: 50%;
         padding: 0;
     `;
 
     const LI=styled.li`
         padding: 3px;
-        color: white;
+        color: green;
+        min-width: 100px;
+        font-weight: bold;
         
     `;
 
     const H1=styled.h1`
-        color: #1aaa15;
+        color: green;
         position: fixed;
         font-size: 3rem;
         margin: 20px;
@@ -51,16 +52,17 @@ function Navbar()
         position: fixed;
         top: 30px;
         right: 20px;
-        color: white;
-        background-color: black;
+        color: green;
+        background-color: #789BE0FF;
         text-decoration: none;
-        border: 3px black solid;
+        border: 3px green solid;
+        border-radius: 30px;
         height: 3rem;
         width: 7rem;
         font-size: 15px;
         font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
-        font-weight: 300;
+        font-weight: 800;
         font-style: inherit;
     `;
     const scrollfnc=()=>{

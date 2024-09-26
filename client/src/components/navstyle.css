@@ -4,7 +4,7 @@ a, a:visited, a:hover, a:active {
 
 .navtags
 {
-    margin: 3px;
+    margin: 7px;
     padding: 5px;
     border: green 2px solid;
     border-radius: 20px;
@@ -14,6 +14,10 @@ a, a:visited, a:hover, a:active {
 .navtags:hover
 {
     background-color: green;
+    .outfit-abc1
+    {
+        color: white;
+    }
 }
 .outfit-abc1{
     font-family: "Outfit", sans-serif;

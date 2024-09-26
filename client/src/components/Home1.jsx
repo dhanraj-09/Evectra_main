@@ -7,6 +7,8 @@ import footpic from "./footpic.jpg"
 import pic4 from "./pic4.jpg"
 import pic2 from "./pic2.webp"
 import main1 from "./main1.jpg"
+import back3 from "./back3.jpg"
+import sidepic from "./sidepic.jpg"
 import ig from "./ig.png"
 import linkedin from "./linkedin.avif"
 function Home1()
@@ -30,13 +32,14 @@ function Home1()
     const SOURCE=styled.source``;
     const I=styled.i``;
     const BR=styled.br``;
+    const PRE=styled.pre`
+        
+    `;
     const P=styled.p`
         
     `;
 
-    const A=styled.a`
-        
-    `;
+    const A=styled.a``;
 
     const H1=styled.h1``;
     const STRONG=styled.strong``;
@@ -70,25 +73,27 @@ function Home1()
             <DIV id={"block3"}>
                 <H1 id={"heading1"}>Addressed Problems & their Solutions:</H1>
                     <DIV id={"part1"}>
-                        <DIV className={"topi1"}><P className={"paras"} id={"paras1"}><STRONG>PROBLEM </STRONG>• 	Restricted Range: Current wireless power transfer technologies have a limited range, which makes it difficult to charge moving vehicles.<BR></BR></P></DIV>
-                        <DIV className={"topi1b"}><P className={"paras"} id={"paras2"}> <STRONG>SOLUTION </STRONG>• 	 Extended Range: My invention uses a very new, innovative coil design and new materials, which extend considerably the range of wireless power transfer, thereby making vehicle-on-the-move charging possible.<BR></BR></P></DIV>
+                        <DIV className={"topi1"}><PRE className={"paras"} id={"paras1"}><STRONG className={"headings"}>PROBLEM </STRONG> <BR></BR>                    Restricted Range: Current wireless power transfer <BR></BR>                    technologies have a limited range, which makes it difficult <BR></BR>                    to charge moving vehicles.<BR></BR></PRE></DIV>
+                        <DIV className={"topi1b"}><PRE className={"paras"} id={"paras2"}> <STRONG className={"headings"}>SOLUTION </STRONG> <BR></BR>                    Extended Range: My invention uses a very new, innovative <BR></BR>                    coil design and new materials, which extend considerably <BR></BR>                    the range of wireless power transfer, thereby making <BR></BR>                    vehicle-on-the-move charging possible.<BR></BR></PRE></DIV>
                     </DIV>
                     <DIV id={"part2"}>
-                        <DIV className={"topi2"}><P className={"paras"} id={"paras3"}> <STRONG>PROBLEM </STRONG> •	Inefficient Performance: Wireless charging technologies are low in their efficiency index and hence lead to overall charging times and energy expenditures.<BR></BR></P></DIV>
-                        <DIV className={"topi2b"}><P className={"paras"} id={"paras4"}><STRONG>SOLUTION </STRONG>• 	 Higher Efficiency: This technology utilizes advanced resonant circuits with optimized coil designs to enhance the efficiency of wireless charging, thereby cutting energy losses and increasing charge times.<BR></BR></P></DIV>
+                        <DIV className={"topi2"}><PRE className={"paras"} id={"paras3"}> <STRONG className={"headings"}>PROBLEM </STRONG><BR></BR>                    Inefficient Performance: Wireless charging technologies <BR></BR>                    are low in their efficiency index and hence lead to overall <BR></BR>                    charging times and energy expenditures.<BR></BR></PRE></DIV>
+                        <DIV className={"topi2b"}><PRE className={"paras"} id={"paras4"}><STRONG className={"headings"}>SOLUTION </STRONG><BR></BR>                    Higher Efficiency: This technology utilizes advanced resonant <BR></BR>                    circuits with optimized coil designs to enhance the efficiency <BR></BR>                    of wireless charging, thereby cutting energy losses and <BR></BR>                    increasing charge times.<BR></BR></PRE></DIV>
                     </DIV>
                     <DIV id={"part3"}>
-                        <DIV className={"topi3"}><P className={"paras"} id={"paras5"}> <STRONG>PROBLEM </STRONG>  •	Elevated Expenses: The implementation of wireless charging infrastructure entails considerable costs, presenting an obstacle to its extensive adoption.<BR></BR></P></DIV>
-                        <DIV className={"topi3b"}><P className={"paras"} id={"paras6"}> <STRONG>SOLUTION </STRONG>• 	 Cost-Effective: The modular design and state-of-the-art materials my invention uses reduce the cost of setting up wireless charging infrastructure and make it more affordable for a wider user base.<BR></BR></P></DIV>
+                        <DIV className={"topi3"}><PRE className={"paras"} id={"paras5"}> <STRONG className={"headings"}>PROBLEM </STRONG><BR></BR>                    Elevated Expenses: The implementation of wireless charging <BR></BR>                    infrastructure entails considerable costs, presenting an <BR></BR>                    obstacle to its extensive adoption.<BR></BR></PRE></DIV>
+                        <DIV className={"topi3b"}><PRE className={"paras"} id={"paras6"}> <STRONG className={"headings"}>SOLUTION </STRONG><BR></BR>                    Cost-Effective: The modular design and state-of-the-art <BR></BR>                    materials my invention uses reduce the cost of setting up <BR></BR>                    wireless charging infrastructure and make it more <BR></BR>                    affordable for a wider user base.<BR></BR></PRE></DIV>
                     </DIV>
                     <DIV id={"part4"}>
-                        <DIV className={"topi4"}><P className={"paras"} id={"paras7"}> <STRONG>PROBLEM </STRONG>  •	Safety Considerations: There is a concern about the safety of wireless charging with regard to electromagnetic radiation that might interfere with other electronic devices.<BR></BR></P></DIV>
-                        <DIV className={"topi4b"}><P className={"paras"} id={"paras8"}><STRONG>SOLUTION </STRONG>• 	 Improved Safety: The proposed invention shall incorporate advanced safety features, such as electromagnetic shielding and foreign object detection, to reduce the risks associated with wireless charging.<BR></BR></P></DIV>
+                        <DIV className={"topi4"}><PRE className={"paras"} id={"paras7"}> <STRONG className={"headings"}>PROBLEM </STRONG><BR></BR>                    Safety Considerations: There is a concern about the safety <BR></BR>                    of wireless charging with regard to electromagnetic radiation <BR></BR>                    that might interfere with other electronic devices.<BR></BR></PRE></DIV>
+                        <DIV className={"topi4b"}><PRE className={"paras"} id={"paras8"}><STRONG className={"headings"}>SOLUTION </STRONG><BR></BR>                   Improved Safety: The proposed invention shall incorporate <BR></BR>                   advanced safety features, such as electromagnetic shielding <BR></BR>                   and foreign object detection, to reduce the risks associated <BR></BR>                   with wireless charging.<BR></BR></PRE></DIV>
                     </DIV>
             </DIV>
-            <Contactus></Contactus>
+           <DIV>
+               <Contactus></Contactus>
+           </DIV>
             <DIV id={"footer"}>
-                <H1 id={"footerheading"}>CONTACT US ON SOCIAL MEDIA</H1>
+                <H1 id={"footerheading"}>CONNECT WITH US ON SOCIAL MEDIA</H1>
                 <DIV className={"social"} id={"insta"}><A href={"https://www.instagram.com/evectra.india?igsh=cW9sem45YW04ZTNi"}><IMAGE src={ig} height={"50px"} width={"50px"}></IMAGE></A></DIV>
                 <DIV className={"social"} id={"linkedin"}><A href={"https://www.linkedin.com/company/indevectra/"}><IMAGE height={"50px"} width={"50px"} src={linkedin}></IMAGE></A></DIV>
             </DIV>

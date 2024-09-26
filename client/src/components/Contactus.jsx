@@ -1,5 +1,7 @@
 import {styled} from "styled-components";
 import "./contactusstyle.css";
+import logo_main1 from "./logo_main1.jpg";
+
 
 function Contactus()
 {
@@ -44,8 +46,10 @@ function Contactus()
     const basic=(evt)=>{
         evt.preventDefault();
     }
+    const IMG=styled.img``;
     return (
         <DIV id={"main"}>
+            <IMG id={"image"} src={logo_main1} height={"500px"}></IMG>
             <DIV id={"container"}>
                 <DIV id={"formdiv"}>
                     <FORM id={"form"} action={""}>
@@ -64,7 +68,7 @@ function Contactus()
                         </DIV>
                         <DIV className={"com4"}>
                             <LABEL id={"reason"}  className={"co4"}>REASON FOR CONTACT</LABEL>
-                            <TEXTAREA className={"co4"} rows={8} cols={45}></TEXTAREA>
+                            <TEXTAREA className={"co4"} rows={5} cols={45}></TEXTAREA>
                         </DIV>
                         <DIV id={"buttondiv"}><BUTTON class={"button1"} id={"button1"} type={"submit"} onSubmit={basic}>SUBMIT</BUTTON></DIV>
                     </FORM>

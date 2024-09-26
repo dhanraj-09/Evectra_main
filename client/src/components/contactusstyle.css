@@ -8,17 +8,16 @@
 {
     width: 100%;
     height: 70vh;
-    margin: 0px 30px 30px 30px;
+    margin: 0 30px 30px 67px;
     display: block;
-    justify-items: center;
-    padding: 25px;
+
+    padding: 0 25px 25px 25px;
 }
 #formdiv
 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .manrope-abc
 {
@@ -27,23 +26,23 @@
   font-weight: 800;
   font-style: normal;
 }
-
 #container
 {
-    margin: 0;
-    padding-bottom: 50px;
-    background-color: black;
+    margin-top: 60px;
+    margin-bottom: 55px;
+    margin-right: 100px;
+    padding-bottom: 30px;
+    background-color: rgba(22, 87, 31, 0.71);
     width: 40%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
-    opacity: 80%;
     border-radius: 30px;
 }
 #main
 {
     display: flex;
-    justify-content: center;
-    background-color: #eaeaea;
+    justify-content: right;
+    background-color: rgba(192, 191, 191, 0.34);
 }
 #name,#email,#company,#reason
 {
@@ -77,11 +76,16 @@
 }
 button:hover
 {
-    background-color: #1aaa15;
+    background-color: green;
+    color: white;
     cursor: pointer;
 }
 
+#image
+{
+    padding: 180px 150px 50px 50px;
 
+}
 
 
 
