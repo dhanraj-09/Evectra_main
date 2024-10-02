@@ -30,7 +30,7 @@
 {
     margin-top: 60px;
     margin-bottom: 55px;
-    margin-right: 100px;
+    margin-right: 0;
     padding-bottom: 30px;
     background-color: rgba(22, 87, 31, 0.71);
     width: 40%;
@@ -41,7 +41,7 @@
 #main
 {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     background-color: rgba(192, 191, 191, 0.34);
 }
 #name,#email,#company,#reason
@@ -84,7 +84,8 @@ button:hover
 #image
 {
     padding: 180px 150px 50px 50px;
-
+    border: none;
+    outline: none;
 }
 
 

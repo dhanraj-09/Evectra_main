@@ -1,49 +1,23 @@
 import Contactus from "./Contactus.jsx";
 import Navbar from "./Navbar.jsx";
 import {styled} from "styled-components";
-import back from "./back.mp4"
-import "./Homestyle.css";
-import footpic from "./footpic.jpg"
-import pic4 from "./pic4.jpg"
-import pic2 from "./pic2.webp"
-import main1 from "./main1.jpg"
-import back3 from "./back3.jpg"
-import sidepic from "./sidepic.jpg"
-import ig from "./ig.png"
-import linkedin from "./linkedin.avif"
+import back from "../assets/back.mp4"
+import "../style/Homestyle.css";
+import ig from "../assets/ig.png"
+import linkedin from "../assets/linkedin.avif"
+
+
 function Home1()
 {
-    const HR=styled.br`
-        margin-top: 13vh;
-        height: 2px;
-        width: 100%;
-        color: white;
-    `;
-
-
-    const DIV=styled.div`
-        
-        
-    `;
-    const VIDEO=styled.video`
-       
-    `;
-
+    const DIV=styled.div``;
+    const VIDEO=styled.video``;
     const SOURCE=styled.source``;
-    const I=styled.i``;
     const BR=styled.br``;
-    const PRE=styled.pre`
-        
-    `;
-    const P=styled.p`
-        
-    `;
-
+    const PRE=styled.pre``;
+    const P=styled.p``;
     const A=styled.a``;
-
     const H1=styled.h1``;
     const STRONG=styled.strong``;
-
     const H2=styled.h2`
         color: #7a8581;
         margin: 0 0 0 0;
@@ -53,14 +27,14 @@ function Home1()
         font-size: 50px;
         font-style: normal;
     `;
-    const IMAGE=styled.img`
-        
-    `;
+    const IMAGE=styled.img``;
+
+
     return(
         <>
-            <Navbar>
-
-            </Navbar>
+            <Navbar></Navbar>
+            <DIV id={"mainpage"}>
+            </DIV>
             <DIV id={"block2"}>
                 <VIDEO id={"backclip"} autoPlay={true} muted={true} loop={true}>
                     <SOURCE src={back} type={"video/mp4"}></SOURCE>

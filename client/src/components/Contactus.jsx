@@ -1,7 +1,7 @@
 import {styled} from "styled-components";
-import "./contactusstyle.css";
-import logo_main1 from "./logo_main1.jpg";
-
+import "../style/contactusstyle.css";
+import logo_main1 from "../assets/logo_main1.jpg";
+import eve from "../assets/eve.png"
 
 function Contactus()
 {
@@ -46,10 +46,8 @@ function Contactus()
     const basic=(evt)=>{
         evt.preventDefault();
     }
-    const IMG=styled.img``;
     return (
         <DIV id={"main"}>
-            <IMG id={"image"} src={logo_main1} height={"500px"}></IMG>
             <DIV id={"container"}>
                 <DIV id={"formdiv"}>
                     <FORM id={"form"} action={""}>
