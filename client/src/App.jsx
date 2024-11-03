@@ -1,16 +1,13 @@
-import { useState } from 'react'
+import Home from "./pages/Home.jsx";
 import './App.css'
 import {StrictMode} from "react";
-import Home1 from "./components/Home1.jsx";
+
 function App()
 {
 
-
-
-
   return (
     <StrictMode>
-      <Home1></Home1>
+        <Home></Home>
     </StrictMode>
   )
 }

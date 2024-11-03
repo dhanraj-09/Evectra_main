@@ -1,4 +1,4 @@
-function Technology() {
+function Team() {
     return(
         <div>
             Technology
@@ -6,4 +6,4 @@ function Technology() {
     )
 }
 
-export default Technology;
+export default Team;

@@ -1,155 +1,80 @@
-#block2
+#block1
 {
-    margin-top: 0;
-    height: 62.5vh;
-    width: 100%;
-    background-color: black;
+    margin: 10px 5px 0 0;
     display: flex;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: right;
+    align-items: center;
+    gap: 8.5rem;
 }
-#backclip
+#img1
 {
-    height: 62.5vh;
+    margin-top: 9rem;
+    border: rgba(0, 0, 0, 0.35) 2px solid;
+    padding: 10px;
+    border-radius: 10px;
 }
-.outfit-abc1
+.one
 {
-     font-family: "Outfit", sans-serif;
-     font-optical-sizing: auto;
-     font-weight: 100;
-     font-style: normal;
-}
-#block3
-{
-    width: 100%;
-    padding-bottom: 30px;
-    height: 176vh;
-    background-color: rgba(192, 191, 191, 0.34);
-    background-image: url("../assets/sidepic.jpg");
-    background-position: right;
-    background-position-x: 970px;
-    background-repeat: no-repeat;
-}
-#quotes1
-{
-    margin: 50px 120px 50px 50px;
-}
-#footer
-{
-    height: 25vh;
-    width: 100%;
-    background-image: url("../assets/main1.jpg");
-    background-position:center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-#insta
-{
-    margin: 30px;
-}
-#linkedin
-{
-    margin: 30px;
-}
-.social
-{
-    position: relative;
-    top: 3%;
-    left: 2.5%;
-    display: inline-block;
-}
-#footerheading
-{
-    padding: 25px 25px 0 50px;
-    margin: 0 0 0 0;
-    font-family: "Roboto Flex", sans-serif;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #003366;
+}
+.container-a
+{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 35%;
+}
+#tag2
+{
+    margin-left: 10px;
+}
+#tag3
+{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
     font-style: normal;
     font-variation-settings:
-            "slnt" 0,
-            "wdth" 100,
-            "GRAD" 0,
-            "XOPQ" 96,
-            "XTRA" 468,
-            "YOPQ" 79,
-            "YTAS" 750,
-            "YTDE" -203,
-            "YTFI" 738,
-            "YTLC" 514,
-            "YTUC" 712;
-}
-#heading1
-{
-    display: inline-block;
-    margin: 30px;
-    color: #1aaa15;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 48px;
-}
-#quotesptag
-{
-    color:  #7a8581;
-    font-family: "Maven Pro", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 21px;
-    font-style: normal;
+            "wdth" 100;
+    color: #475569;
+    font-size: 19px;
     margin-top: 30px;
 }
-.paras
+#Rev
 {
-    /*display: inline;*/
-    font-family: "Raleway", sans-serif;
+    margin: 0;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 900;
     font-style: normal;
-    font-size: 25px;
-    color: #115610;
+    letter-spacing: -0.025rem;
 }
-.raleway-probs
+#tag1
 {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: italic;
+    font-weight: 700;
+    border: #003366 solid 2px;
+    padding: 4px;
+    border-radius: 30px;
 }
-#part1,#part2,#part3,#part4
+#upper2
 {
-    margin-left: 80px;
+    margin: 0 0 20px 0;
 }
-.headings
+#snow
 {
-    color: #1aaa15;
-}
-#image90
-{
-    height: 1080px;
-    width: 480px;
-    background-color: #00fffa;
+    background: #282c34;
     position: relative;
-    top: -1250px;
-    left: 1000px;
+    width: 100%;
+    height: 100vh;
 }
-#image22
-{
-    position: inherit;
-    top: -500px;
-    bottom: 1000px;
-}
-#mainpage
+#aa
 {
     height: 100vh;
     width: 100%;
-    background-image: url("../assets/main_bg.webp");
-    filter: blur(0.15em);
-    -webkit-filter: blur(1);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin-top: 0;
 }

@@ -1,35 +1,83 @@
 import "../style/navstyle.css"
 import {styled} from "styled-components";
-import contactus from "./Contactus.jsx";
-import eve from "../assets/eve.png";
+import logo from "../assets/logo.png"
+import {useState,useEffect} from "react";
 
 function Navbar()
 {
-    const DIV=styled.div``;
-    const NAV=styled.nav``;
-    const UL=styled.div``;
-    const LI=styled.li``;
-    const A=styled.a``;
-    const BUTTON=styled.button``;
-    const IMG=styled.img``;
 
 
-    function scrollfnc() {
-        const element=document.getElementById("formdiv");
-        element?.scrollIntoView({behavior:"smooth"})
-    }
+    const [prevscrollbar,setprescrollbar]=useState(window.pageYOffset);
+    const [top,settop]=useState(0);
+    useEffect(()=>{
+        //function to handle scroll
+        const handlescroll=()=>{
+            const curscrollpos=window.pageYOffset;
+            if(prevscrollbar>curscrollpos)
+            {
+                settop(0);
+            }
+            else
+            {
+                settop(-150);
+            }
+            setprescrollbar(curscrollpos);
+        };
+        window.addEventListener('scroll',handlescroll);
+        return ()=>{
+            window.removeEventListener('scroll',handlescroll);
+        };
+    },[prevscrollbar]);
+
+
+    const DIV=styled.div`
+        border: rgba(0, 0, 0, 0.34) 2px solid;
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 20px;
+        position: fixed;
+        top: ${top}px;
+        z-index: 100;
+        border-radius: 70px;
+        background-color: rgba(236,231,231,0.91);
+    `;
+    const NAV=styled.nav`
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        `;
+    const UL=styled.nav`
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: normal;
+        gap: 4rem;
+        height: 50%;
+    `;
+    const LI=styled.li`
+        font-weight: 500;
+        font-size: large;
+        margin: 30px 10px 20px 10px;
+        padding: 6px;
+    `;
+    const A=styled.a`
+        text-decoration: none;
+        color: black;
+    `;
+    const IMG=styled.img`
+        margin-right: 300px;
+    `;
+
 
     return (
         <>
-            <DIV id={"block_nav"}>
-                <A href={"#"}><IMG id={"image"} src={eve} height={"60px"} width={"250px"}></IMG></A>
-                <NAV id={"nav"}>
-                    <UL id={"ul"}>
-                        <A className={"list_inside"} href={"#"}><LI className={"list"}>HOME</LI></A>
-                        <A className={"list_inside"} href={"#"}><LI className={"list"}>SOLUTION</LI></A>
-                        <A className={"list_inside"} href={"#"}><LI className={"list"}>TECHNOLOGY</LI></A>
-                        <A className={"list_inside"} href={"#"}><LI className={"list"}>ABOUT</LI></A>
-                        <BUTTON id={"button"} onClick={scrollfnc}>CONTACT US</BUTTON>
+            <DIV>
+                <NAV>
+                    <UL>
+                        <IMG src={logo} height={"100px"} width={"150px"}></IMG>
+                        <A href={"#"}><LI>Home</LI></A>
+                        <A href={"#"}><LI>Service</LI></A>
+                        <A href={"#"}><LI>Team</LI></A>
                     </UL>
                 </NAV>
             </DIV>
